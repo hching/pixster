@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B5DB8207-8F28-4D9D-BD30-97A08ED7E2BF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>pixster</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CF82CC17-0AE9-46F6-95EC-F8B1AFA60DEB</key>
+		<string>https://github.com/thecodepath/ios_pixster.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>pixster.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CF82CC17-0AE9-46F6-95EC-F8B1AFA60DEB</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/thecodepath/ios_pixster.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CF82CC17-0AE9-46F6-95EC-F8B1AFA60DEB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CF82CC17-0AE9-46F6-95EC-F8B1AFA60DEB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ios_pixster</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "SearchViewController.h"
+#import "SearchCollectionViewController.h"
 
 @implementation AppDelegate
 
@@ -15,7 +16,8 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 
-    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[[SearchViewController alloc] init]];
+    //self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[[SearchViewController alloc] init]];
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[[SearchCollectionViewController alloc] init]];
     
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];

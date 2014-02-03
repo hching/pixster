@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4514" systemVersion="13B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment defaultVersion="1552" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SearchCollectionViewController">
+            <connections>
+                <outlet property="imageCollectionView" destination="lVF-lv-VSI" id="s9R-fG-XV7"/>
+                <outlet property="searchBar" destination="XQD-FN-sUc" id="7Tu-Jf-PTc"/>
+                <outlet property="view" destination="1" id="3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <collectionView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" minimumZoomScale="0.0" maximumZoomScale="0.0" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="lVF-lv-VSI">
+                    <rect key="frame" x="0.0" y="44" width="320" height="524"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="6to-Yo-lJS">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                    <cells/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="OFU-7M-3jA"/>
+                        <outlet property="delegate" destination="-1" id="jpA-gk-td1"/>
+                    </connections>
+                </collectionView>
+                <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="XQD-FN-sUc">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="Q5t-An-UCR"/>
+                    </connections>
+                </searchBar>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="lVF-lv-VSI" secondAttribute="bottom" id="81a-x5-7hs"/>
+                <constraint firstItem="XQD-FN-sUc" firstAttribute="leading" secondItem="1" secondAttribute="leading" id="GiZ-V8-wmQ"/>
+                <constraint firstItem="lVF-lv-VSI" firstAttribute="top" secondItem="XQD-FN-sUc" secondAttribute="bottom" id="Lba-xO-mJC"/>
+                <constraint firstItem="XQD-FN-sUc" firstAttribute="top" secondItem="1" secondAttribute="top" id="OPH-Aj-EW2"/>
+                <constraint firstAttribute="trailing" secondItem="XQD-FN-sUc" secondAttribute="trailing" id="jEt-r2-ACq"/>
+                <constraint firstAttribute="trailing" secondItem="lVF-lv-VSI" secondAttribute="trailing" id="oY1-9o-DXb"/>
+                <constraint firstItem="lVF-lv-VSI" firstAttribute="leading" secondItem="1" secondAttribute="leading" id="qlB-Yz-yjr"/>
+            </constraints>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+</document>

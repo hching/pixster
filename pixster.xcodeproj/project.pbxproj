@@ -30,6 +30,10 @@
 		42B0E09317A82E2E00BACB2C /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B0E08817A82E2E00BACB2C /* AFURLConnectionOperation.m */; };
 		42B0E09417A82E2E00BACB2C /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B0E08A17A82E2E00BACB2C /* AFXMLRequestOperation.m */; };
 		42B0E09517A82E2E00BACB2C /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B0E08C17A82E2E00BACB2C /* UIImageView+AFNetworking.m */; };
+		83B1F87D189F2CF100F2CF9A /* SearchCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B1F87B189F2CF100F2CF9A /* SearchCollectionViewController.m */; };
+		83B1F87E189F2CF100F2CF9A /* SearchCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83B1F87C189F2CF100F2CF9A /* SearchCollectionViewController.xib */; };
+		83B1F881189F2D0E00F2CF9A /* ImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B1F880189F2D0E00F2CF9A /* ImageCell.m */; };
+		83B1F883189F2D2100F2CF9A /* ImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83B1F882189F2D2100F2CF9A /* ImageCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +85,12 @@
 		42B0E08A17A82E2E00BACB2C /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFXMLRequestOperation.m; sourceTree = "<group>"; };
 		42B0E08B17A82E2E00BACB2C /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
 		42B0E08C17A82E2E00BACB2C /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		83B1F87A189F2CF100F2CF9A /* SearchCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchCollectionViewController.h; sourceTree = "<group>"; };
+		83B1F87B189F2CF100F2CF9A /* SearchCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchCollectionViewController.m; sourceTree = "<group>"; };
+		83B1F87C189F2CF100F2CF9A /* SearchCollectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchCollectionViewController.xib; sourceTree = "<group>"; };
+		83B1F87F189F2D0E00F2CF9A /* ImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCell.h; sourceTree = "<group>"; };
+		83B1F880189F2D0E00F2CF9A /* ImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCell.m; sourceTree = "<group>"; };
+		83B1F882189F2D2100F2CF9A /* ImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +158,12 @@
 				42B0DFF617A81E6200BACB2C /* SearchViewController.m */,
 				42B0DFF717A81E6200BACB2C /* SearchViewController.xib */,
 				42B0E07917A82E2E00BACB2C /* AFNetworking */,
+				83B1F87A189F2CF100F2CF9A /* SearchCollectionViewController.h */,
+				83B1F87B189F2CF100F2CF9A /* SearchCollectionViewController.m */,
+				83B1F87C189F2CF100F2CF9A /* SearchCollectionViewController.xib */,
+				83B1F87F189F2D0E00F2CF9A /* ImageCell.h */,
+				83B1F880189F2D0E00F2CF9A /* ImageCell.m */,
+				83B1F882189F2D2100F2CF9A /* ImageCell.xib */,
 			);
 			path = pixster;
 			sourceTree = "<group>";
@@ -285,8 +301,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83B1F87E189F2CF100F2CF9A /* SearchCollectionViewController.xib in Resources */,
 				42B0DFD117A81E2800BACB2C /* InfoPlist.strings in Resources */,
 				42B0DFD917A81E2800BACB2C /* Images.xcassets in Resources */,
+				83B1F883189F2D2100F2CF9A /* ImageCell.xib in Resources */,
 				42B0DFF917A81E6200BACB2C /* SearchViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,11 +327,13 @@
 				42B0E09317A82E2E00BACB2C /* AFURLConnectionOperation.m in Sources */,
 				42B0E09517A82E2E00BACB2C /* UIImageView+AFNetworking.m in Sources */,
 				42B0E08F17A82E2E00BACB2C /* AFImageRequestOperation.m in Sources */,
+				83B1F881189F2D0E00F2CF9A /* ImageCell.m in Sources */,
 				42B0E08E17A82E2E00BACB2C /* AFHTTPRequestOperation.m in Sources */,
 				42B0E08D17A82E2E00BACB2C /* AFHTTPClient.m in Sources */,
 				42B0E09417A82E2E00BACB2C /* AFXMLRequestOperation.m in Sources */,
 				42B0DFD717A81E2800BACB2C /* AppDelegate.m in Sources */,
 				42B0DFF817A81E6200BACB2C /* SearchViewController.m in Sources */,
+				83B1F87D189F2CF100F2CF9A /* SearchCollectionViewController.m in Sources */,
 				42B0E09017A82E2E00BACB2C /* AFJSONRequestOperation.m in Sources */,
 				42B0DFD317A81E2800BACB2C /* main.m in Sources */,
 				42B0E09217A82E2E00BACB2C /* AFPropertyListRequestOperation.m in Sources */,
@@ -516,6 +536,7 @@
 				42B0DFF117A81E2800BACB2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		42B0DFF217A81E2800BACB2C /* Build configuration list for PBXNativeTarget "pixsterTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +545,7 @@
 				42B0DFF417A81E2800BACB2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
